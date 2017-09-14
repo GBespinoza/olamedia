@@ -1,0 +1,139 @@
+.dash{
+    height: 75px;
+}
+.large-4{
+   width: 23%;
+border: 1px solid #f1f1f1;
+height: 79px;
+}
+
+
+.box{
+    margin-bottom: 0px;
+    height: 76px;
+    border-bottom: 0px;
+    background: #f1f1f1;
+}
+.icon{
+background: #1c2f35;
+width: 105px;
+height: 80px;
+}
+button:hover{
+
+    background: #838080;
+border: 3px solid yellow;
+
+}
+.header{
+  ;
+  height: 8%;
+background: #1c2f35;
+border-left: 1px solid #17262c;
+    padding-left: 5%;
+    color: #ffffff;
+    font-size: 247%;
+}
+.vic{
+    font-size: 350%;
+color: #d7d2d2;
+letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.tabla{
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
+.sett{
+    width: 10%;
+margin-bottom: 0px;
+position: relative;
+top: 25px;
+left: 15%;
+}
+.buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem 0 0 27rem;
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1c2f35;;
+  color: #fefefe; 
+width: 13%;
+height: 72%;
+border-radius: 55px;
+position: relative;
+bottom: 45%;}
+  [data-whatinput='mouse'] 
+.buttons {
+    outline: 0; }
+ 
+.buttons:hover{
+    background-color: #14191c;
+    border: 0px solid red;
+    }
+.vact{
+    text-align: center;
+    background: #f1f1f1;
+font-size: 1em;
+
+letter-spacing: 1px;  
+
+}
+
+.editr {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1c2f35;;
+  color: #ccba62; 
+width: 44%;
+height: 50%;
+border-radius: 55px;
+    padding-top: 3px;
+    position: relative;
+left: 25%;
+}
+  [data-whatinput='mouse'] 
+.editr {
+    outline: 0; }
+ 
+.editr:hover{
+    background-color: #14191c;
+    border: 0px solid red;
+    }
+.serv{
+    text-align: center;
+width: 15.9%;
+  
+}
+.titul{
+    width: 25.8%;
+padding-left: 45px;
+    
+}
+.int{
+    width: 21.2%;
+    text-align: center;
+   
+}

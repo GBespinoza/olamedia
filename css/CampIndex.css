@@ -1,0 +1,120 @@
+/*-----------Campaña de entrada----------*/
+.nuevo{
+    width: 10.9%;
+height: 58%;
+background: #1c2f35;
+border-radius: 54%;
+}
+.header {
+height: 8%;
+background: #1c2f35;
+border-left: 1px solid #17262c;
+padding-left: 2%;
+color: #ffffff;
+font-size: 268%;
+letter-spacing: 3px;
+    font-family: 'noto sans', sans-serif;
+}
+.encab{
+    color: #c3bebe;
+font-size: 350%;
+margin-bottom: 0px;
+    letter-spacing: 6px; 
+}
+
+.buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem 0 0 27rem;
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1c2f35;;
+  color: #fefefe; 
+width: 13%;
+height: 72%;
+border-radius: 55px;
+position: relative;
+bottom: 45%;}
+  [data-whatinput='mouse'] 
+.buttons {
+    outline: 0; }
+ 
+.buttons:hover{
+    background-color: #14191c;
+    border: 0px solid red;
+    }
+.tps{
+text-align: center;
+background: #f1f1f1;
+font-size: 115%;
+letter-spacing: 1px;
+color: #1d1c1c;
+   font-family: 'Raleway', sans-serif;
+ font-weight: bolder;
+}
+
+.editr {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1c2f35;;
+  color: #ccba62; 
+width: 44%;
+height: 50%;
+border-radius: 55px;
+    padding-top: 3px;
+    position: relative;
+left: 25%;
+}
+  [data-whatinput='mouse'] 
+.editr {
+    outline: 0; }
+ 
+.editr:hover{
+    background-color: #14191c;
+    border: 0px solid red;
+    }
+.bar{height: 8%;margin-bottom: 2%;background: #1c2f35;border-left: 1px solid #17262c;padding-left: 5%;color: #ffffff;font-family: 'noto sans', sans-serif;letter-spacing: 2px;}
+.camIdx{
+    font-size: 57px;
+    color: #ddd7d7;
+font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+.verChil{
+    width: 20%;
+    padding-left: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.cols{
+    text-align: center;
+    width: 13%;
+}
+.segm{
+    text-align: center;
+    width: 15%;
+}
+.fcha{
+      text-align: center;
+    width: 15%;
+}

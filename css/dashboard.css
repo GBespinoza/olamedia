@@ -1,0 +1,21 @@
+.dash{height: 75px;}
+
+.large-4{width: 23%;border: 1px solid #ffffff;height: 77px;}
+
+.box{margin-bottom: 0px;height: 74px;border-bottom: 0px;background: #f1f1f1;text-align: center;font-size: 23px;padding: 0px;border: 1px solid #d8d4d4;font-family: 'noto sans', sans-serif; color: #727272;}
+
+
+.bar{height: 8%;margin-bottom: 2%;background: #1c2f35;border-left: 1px solid #17262c;padding-left: 5%;color: #ffffff;font-family: 'noto sans', sans-serif;letter-spacing: 2px;font-size: 247%;}
+
+.tabla{text-align: center;}
+
+.table{text-align: center;letter-spacing: .2em;font-weight: bolder;color: #565555;font-family: 'Hind', sans-serif;}
+
+.sett{width: 10%;margin-bottom: 0px;position: relative;top: 25px;left: 15%;}
+/*------------BOTONES----------------*/
+.icon{background: #1c2f35;width: 105px;height: 74px;position: relative;bottom: 74px;left: 99%;border: 1px solid #d8d4d4;}
+
+.icons{position: relative;bottom: 74px;left: 99%;background: #f1f1f1;height: 74px;width: 105px;border: 1px solid #d8d4d4;border-left: 0px solid;}
+
+button:hover{background: #cccccc;border: 3px solid yellow;}
+/*------------SELECT----------------*/

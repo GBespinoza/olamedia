@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Campaña</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<link rel="stylesheet" href="css/fundation/foundation.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/camp.css">
+
+    
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet'> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+</head>
+    <body>
+<div class="app-dashboard shrink-medium">
+
+
+<div class="app-dashboard-body off-canvas-wrapper">
+    <div id="app-dashboard-sidebar" class="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium" data-off-canvas>
+        <div class="app-dashboard-sidebar-title-area">
+            <div class="app-dashboard-close-sidebar">
+                <img src="img/iconSid/logo.png" class="app-dashboard-sidebar-block-title" style="width: 200px;position: relative;bottom: 25px;right: 8px;">
+          <!-- Close button -->
+                <button id="close-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" style="width: 12%;position: relative;bottom: 27px;bottom: 52px;left: 8px;">
+
+                    <span aria-hidden="true"><a href="#"><img src="img/iconSid/menu.png"></a></span>
+                </button>
+            </div>
+            <div class="app-dashboard-open-sidebar" style="margin-bottom: 30px;">
+                <button id="open-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu" type="button" style="width: 29%;position: relative;left: 49%;bottom: 0px;">
+                <span aria-hidden="true"><a href="#"><img src="img/iconSid/menu.png"></a></span>
+                </button>
+            </div>
+        </div>
+        
+        
+        <div class="app-dashboard-sidebar-inner">
+     <ul class="menu vertical" style="height: 100%;">   
+                <li><a href="Dashboard.html" class="is-active">
+                    <img src="img/iconSid/home.png" style="width: 40px;margin-left: 19px;"><span class="app-dashboard-sidebar-text"  style="margin-left: 24px;position: relative;top: 10px;font-family: 'noto sans', sans-serif;letter-spacing: 1px;font-weight: bolder;">Dashboard</span>
+                </a></li>
+            
+                <li><a href="CampIndex.html" class="is-active">
+                    <img src="img/iconSid/camp.png" style="width: 35px;margin-left: 19px;"><span class="app-dashboard-sidebar-text"  style="margin-left: 24px;position: relative;top: 10px;font-family: 'noto sans', sans-serif;letter-spacing: 1px;font-weight: bolder;">Campaña</span>
+                </a></li>
+           
+                <li><a href="usuarios.html" class="is-active">
+                    <img src="img/iconSid/usuarios.png" style="width: 35px;margin-left: 19px;"><span class="app-dashboard-sidebar-text"  style="margin-left: 24px;position: relative;top: 10px;font-family: 'noto sans', sans-serif;letter-spacing: 1px;font-weight: bolder;">Usuarios</span>
+                </a></li>
+            
+                <li><a href="reportes.html" class="is-active">
+                    <img src="img/iconSid/reportes.png" style="width: 35px;margin-left: 19px;"><span class="app-dashboard-sidebar-text"  style="margin-left: 24px;position: relative;top: 10px;font-family: 'noto sans', sans-serif;letter-spacing: 1px;font-weight: bolder;">Reportes</span>
+                </a></li>
+            
+                <li><a href="vacantes.html" class="is-active">
+                    <img src="img/iconSid/vacantes.png" style="width: 35px;margin-left: 19px;"><span class="app-dashboard-sidebar-text"  style="margin-left: 24px;position: relative;top: 10px;font-family: 'noto sans', sans-serif;letter-spacing: 1px;font-weight: bolder;">Vacantes</span>
+                </a></li>
+                
+                <li  style="margin-top: 450px;width: 70px;margin-left: 12%;">
+                <a class="selection" ><img src="img/SignOff/ajustes.png" style="width: 50px;"></a>
+                   </li> 
+                <li style="width: 63px;position: relative;left: 160px;bottom: 63px;">
+                <a  href="login.html" class="selection"><img src="img/SignOff/salir.png" style="width: 38px;margin-left: 0px;"></a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="app-dashboard-body-content off-canvas-content" data-off-canvas-content style="padding: 0px;">
+        
+
+        <p class="header">Campaña</p>
+
+    
+          
+        <div class="row" style="width: 1000px;margin-left: 350px;">
+            <div class="large-12 cell" style="margin-top: 20px;">
+         
+                <input id="tab1" type="radio" name="tabs">
+                <label for="tab1">01 NUEVA CAMPAÑA</label>
+                <input id="tab2" type="radio" name="tabs">
+                <label for="tab2">02 SEGMANTACION</label> 
+                <input id="tab3" type="radio" name="tabs">
+                <label for="tab3">03 IMAGEN O VIDEO</label>
+  
+<section id="content1">
+    <div class="box" style="height: 59px;">
+        <div class="container-4" >
+            <input type="search" id="search" placeholder="Inicio del periodo a buscar" />
+            <button class="icon" style="position: relative;right: 27.2%;"><img  src="img/iconSid/camp.png"></button>
+        </div>
+                        
+        <div class="container-4" style="position: relative;left: 66.6%;bottom: 59px;">
+            <input type="search" id="search" placeholder="Fin del periodo a buscar" />
+            <button class="icons"><img  src="img/ImgIcons/calendario.png"></button>
+        </div>
+    </div>
+    
+    <input type="text" value="" placeholder="" style="margin-top: 65px;" >
+    
+    <div class="row">
+        <div class="large-12 cell">
+            <input type="text" value="" placeholder="Descripcion de campaña" style="border: 1px solid #bebebe;height: 200px;margin-top: 35px;">
+        </div>
+    </div>
+
+ 
+ 
+      
+<div class="row">
+    <div class="large-12 cell">
+        <select class="Objt" >
+            <option value="Objetivo">Objetivo</option>
+            <option value="Posicionartumarca<">Posicionar tu marca</option>
+            <option value="Conseguirtraficopormediosdefertas">Conseguir trafico por medios de fertas</option>
+        </select>
+    </div>
+</div>
+    
+
+</section>
+                
+<section id="content1">
+    <div class="camp">
+        <button  type="button" class="success button" class="alert button" style="position: relative;left: 21.5%;width: 13%;">CANCELAR</button>
+        <button type="button" class="alert button" class="alert button" style="position: relative;left: 27.7%;width: 32%;">!LISTO¡ SEGMENTAR CAMPAÑA</button>
+    </div>
+</section>
+             
+            
+            
+<section id="content2"style="height: 640px;" >
+  <form>
+      <div class="row" style="height: 53px;margin-top: 1%;">
+          <div class="small-3 cell" style="width: 25%;padding-top: 10px;">
+              <p style="height: 38px;font-size: 21px;">Nombre de campaña</p>
+          </div>
+          <div class="small-9 cell" style="width: 75%;margin-left: 25%;position: relative;bottom: 127%;">
+              <input type="text" id="right-label" placeholder="" style="width: 100%;">
+          </div> 
+      </div>
+</form>
+   
+<form>
+    <div class="row" style="margin-top: 30px;padding-top: 14px;height: 60px;">
+        <div class="small-2 cell" style="width: 5%;">
+            <div id="chkLogin" attr-isSelected="true" ><img src="img/ImgIcons/outline3.png"  ></div>
+        </div>
+        
+        <div class="small-4 cell" style="width: 45%;margin-left: 44px;position: relative;bottom: 37px;">
+            <p style="font-size: 21px;padding-left: 20px;margin-bottom: 0px;">Deseo asignar presupuesto diario $</p>
+        </div>
+    
+        <div class="small-4 cell" style="width: 16%;margin-left: 50%;position: relative;bottom: 78px;border: 1px solid #c1c4c6;;height: 48px;">
+            <input type="text" id="labl" placeholder="">         
+        </div>
+        
+        <div class="small-2 cell" style="width: 34%;margin-left: 66%;position: relative;bottom: 116px;">
+            <p style="padding-left: 21px;font-size: 21px;">Diario</p>
+        </div>
+    </div>
+</form>
+      
+      
+     
+     
+<div class="row" style="margin-top: 35px;background: #F8F8F8;height: 76px;">
+    
+    <div class="large-12 cell"  style="padding-top: 15px;height: 100%;">
+        
+        <div class="large-2 cell" style="width: 5%;height: 45px;">
+            
+            <a  href="#" class="button expanded btnLogin" onclick="muestra_oculta('contenido_a_mostrar')" style="width: 44px;height: 99%;margin-bottom: 0px;"></a> 
+        </div>   
+        <div class="large-10 cell"  style="width: 95%;position: relative;bottom: 44px;height: 45px;margin-left: 46px;" >
+            
+            <div class="conte" id="contenido_a_mostrar"> 
+                <form  method="post" >
+                    <select class="sele" id="status" name="status" onChange="mostrar(this.value);" placeholder="" >
+                        <option value="1opc">Deseo segmentarlo por zona</option>
+                        <option value="2opc"></option>
+                        <option value="3opc"></option>
+                        <option value="4opc"></option>
+                    </select>
+                </form>
+            </div> 
+        </div>
+    </div>
+</div>
+
+ 
+<div class="row">
+  <div class="large-12 cell">    
+      <div id="1opc"  >
+          <form  method="post">
+              <div class="box1" >
+                  <div class="larfe-6 cell" style="width: 50%">
+                      <div class="container-1" style="padding-left: 49px;" >
+                          <input type="search" id="search" placeholder="Buscar zona" />
+                          <button class="icon" ><img  src="img/ImgIcons/buscar.png" > </button>
+                      </div>
+                  </div>  
+                  <div class="large-6 cell" style="width: 50%;position: relative;bottom: 70px;margin-left: 50%;">
+                      <div class="container-1" >
+                          <input type="search" id="search" placeholder="Agregar zona" style="border-right: 0px;" >
+                          <button class="icon" style="background: #fff;border: 1px solid #e6e4e4;border-left: 0px;"><img  src="img/ImgIcons/agregar.png" ></button>
+                      </div>
+                  </div>        
+              </div>
+          </form>   
+<div class="row">
+    <div class="large-12 cell">
+        <form  method="post">
+            <div class="box2" >
+                <table>
+        <tr>
+            <td  style="width: 11em;height: 4em;border-right: 1px solid #F8F8F8;background: #F8F8F8;text-align: center;"><strong>Nombre de zona</strong></td>
+            <td  style="width: 11em;height: 4em; background: #F8F8F8;text-align: center;border-right: 1px solid #F8F8F8;"><strong>Radiozona</strong></td>
+            <td  style="width: 11em;height: 4em;background: #F8F8F8;"><strong></strong></td>
+        </tr>
+ 
+        <tr>
+          <td  style="width: 15em;height: 3em;border-right: 1px solid #e6e4e4;padding-left: 45px;" >Polanco</td>
+          <td  style="width: 18%;height: 3em;border-right: 1px solid #e6e4e4;text-align: center;" >5km</td>
+          <td  style="width: 11em;height: 3em;text-align: center;" >Ver mapa</td>
+        </tr>
+ 
+        <tr>
+          <td  style="width: 15em;height: 3em;border-right: 1px solid #e6e4e4;padding-left: 45px;" >Pedregal</td>
+          <td  style="width: 18%;height: 3em;border-right: 1px solid #e6e4e4;text-align: center;" >2km</td>
+          <td  style="width: 11em;height: 3em;text-align: center;" >Ver mapa</td>
+        </tr>
+ 
+        <tr>
+          <td  style="width: 15em;height: 3em;border-right: 1px solid #e6e4e4;padding-left: 45px;" >Santa fe</td>
+          <td  style="width: 18%;height: 3em;border-right: 1px solid #e6e4e4;text-align: center;" >0.2km</td>
+          <td  style="width: 11em;height: 3em;text-align: center;" >Ver mapa</td>
+        </tr>
+     
+     
+        <tr>
+          <td  style="width: 15em;height: 3em;border-right: 1px solid #e6e4e4;padding-left: 45px;" ></td>
+          <td  style="width: 18%;height: 3em;border-right: 1px solid #e6e4e4;text-align: center;" ></td>
+          <td  style="width: 11em;height: 3em;text-align: center;" ></td>
+        </tr>
+     
+                </table>
+            </div>
+        </form>        
+    </div>
+</div>
+     
+</div>
+</div>
+</div>
+
+   
+<div class="row" style="position: relative;top: 70px;right: 41%;width: 191%;background: #F8F8F8;height: 123px;">
+    <div class="columns" style="height: 115px;padding-top: 30px;width: 100%;padding-left: 21.5%;height: 120px;">
+        <a id="btn" class="button primary" href="">CANCELAR</a>
+        <a id="btn" class="button secondary" href="#">REGRESAR</a>
+        <a id="btn" class="button warning" href="#">FINALIZAR</a>
+    </div>
+</div>
+
+</section>
+     
+
+
+  
+      
+      
+    
+
+
+    
+<section id="content3" >
+    
+<div class="row">
+    <div class="large-12 cell">
+        <form>
+            
+            <div class="row" style="height: 53px;margin-top: 1%;">
+                <div class="small-3 cell" style="width: 25%;padding-top: 10px;">
+                    <p style="height: 38px;font-size: 21px;">Nombre de campaña</p>
+                </div>
+                
+                <div class="small-9 cell" style="width: 75%;margin-left: 25%;position: relative;bottom: 127%;">
+                    <input type="text" id="right-label" placeholder="" style="width: 100%;">
+                </div>
+                
+            </div>
+        </form>  
+    </div>
+    
+        <div class="large-12 cell" style="margin-top: 40px;height: 125px;">
+            <div class="large-10 cell" style="width: 70%;">
+                <div class="container-1" >
+                    <input type="search" id="search" placeholder="Nombre de Archivo" style="width: 100%;font-size: 21px;" >
+                </div>
+            </div> 
+            
+            <div class="large-2 cell" style="width: 30%;position: relative;bottom: 68px;margin-left: 70%;height: 53%;">
+                <label for="exampleFileUpload" class="btn"><img class="brows" src="img/ImgIcons/folder.png">Examinar...</label>
+                <input type="file" id="exampleFileUpload" class="show-for-sr">
+            </div>
+        </div>
+    
+       <div class="large-12 cell" style="height: 400px;">
+                    <input type="text"  placeholder="Terminos y condiciones"  style="border: 1px solid #cacaca;height: 400px;">
+             
+        </div>
+</div>
+
+<div class="row" style="position: relative;top: 70px;right: 41%;width: 191%;background: #F8F8F8;height: 123px;">
+    <div class="columns" style="height: 115px;padding-top: 30px;width: 100%;padding-left: 21.5%;height: 120px;">
+        <a id="btn" class="button primary" href="#">CANCELAR</a>
+        <a id="btn" class="button secondary" href="#">REGRESAR</a>
+        <a id="btn" class="button warning" href="/CampIndex.html">FINALIZAR</a>
+    </div>
+</div>
+</section>
+    
+            
+            
+            
+            
+         </div>
+        </div>   
+ 
+ 
+
+        
+        
+        
+        
+        
+        
+    </div>
+</div>
+</div>
+
+       
+        <script src="js/common.js" ></script>
+        <script src="js/camp.js" ></script>
+        
+        
+     
+    </body>
+</html>
